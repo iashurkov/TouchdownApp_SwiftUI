@@ -11,6 +11,8 @@ enum Constant {
     
     // DATA
     
+    static let players: [Player] = Bundle.main.decode("player.json")
+    
     // COLOR
     
     static let colorBackground = Color("ColorBackground")

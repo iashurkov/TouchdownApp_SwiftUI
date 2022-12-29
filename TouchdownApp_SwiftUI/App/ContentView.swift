@@ -22,10 +22,16 @@ struct ContentView: View {
                     .background(.white)
                     .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
-                Spacer()
-                
-                FooterView()
-                    .padding(.horizontal)
+                ScrollView(.vertical, showsIndicators: false) {
+                    VStack(spacing: 0) {
+                        FeaturedTabView(model: Constant.players)
+                            .frame(height: 240, alignment: .center)
+                            .padding(.vertical, 20)
+                        
+                        FooterView()
+                            .padding(.horizontal)
+                    } //: VStack
+                } //: ScrollView
             } //: VStack
             .background(Constant.colorBackground.ignoresSafeArea(.all, edges: .all))
         } //: ZStack
