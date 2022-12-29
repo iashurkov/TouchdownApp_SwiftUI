@@ -17,6 +17,8 @@
 		AA44F73F2959E103008101E1 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = AA44F73B2959E103008101E1 /* brand.json */; };
 		AA7F85AA2959E2C000F0D26A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7F85A92959E2C000F0D26A /* Constant.swift */; };
 		AA7F85AC2959E37500F0D26A /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7F85AB2959E37500F0D26A /* FooterView.swift */; };
+		AADDFE71295DA8DA0054885F /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDFE70295DA8DA0054885F /* NavigationBarView.swift */; };
+		AADDFE73295DAA2A0054885F /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADDFE72295DAA2A0054885F /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AA44F7402959E159008101E1 /* TouchdownApp-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TouchdownApp-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		AA7F85A92959E2C000F0D26A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		AA7F85AB2959E37500F0D26A /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		AADDFE70295DA8DA0054885F /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		AADDFE72295DAA2A0054885F /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 			isa = PBXGroup;
 			children = (
 				AA7F85AB2959E37500F0D26A /* FooterView.swift */,
+				AADDFE70295DA8DA0054885F /* NavigationBarView.swift */,
+				AADDFE72295DAA2A0054885F /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -226,9 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA44F72C2959DA2D008101E1 /* ContentView.swift in Sources */,
+				AADDFE73295DAA2A0054885F /* LogoView.swift in Sources */,
 				AA7F85AC2959E37500F0D26A /* FooterView.swift in Sources */,
 				AA44F72A2959DA2D008101E1 /* TouchdownApp_SwiftUIApp.swift in Sources */,
 				AA7F85AA2959E2C000F0D26A /* Constant.swift in Sources */,
+				AADDFE71295DA8DA0054885F /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
