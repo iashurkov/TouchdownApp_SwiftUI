@@ -25,8 +25,9 @@ struct ContentView: View {
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack(spacing: 0) {
                         FeaturedTabView(model: Constant.players)
-                            .frame(height: 240, alignment: .center)
                             .padding(.vertical, 20)
+                        
+                        CategoryGridView(model: Constant.categories)
                         
                         FooterView()
                             .padding(.horizontal)

@@ -12,6 +12,7 @@ enum Constant {
     // DATA
     
     static let players: [Player] = Bundle.main.decode("player.json")
+    static let categories: [Category] = Bundle.main.decode("category.json")
     
     // COLOR
     
@@ -19,6 +20,13 @@ enum Constant {
     static let colorGray = Color(UIColor.systemGray4)
     
     // LAYOUT
+    
+    static let columnSpacing: CGFloat = 10
+    static let rowSpacing: CGFloat = 10
+    static var gridLayout: [GridItem] {
+        Array(repeating: GridItem(.flexible(), spacing: self.rowSpacing), count: 2)
+    }
+    
     // UX
     // API
     // IMAGE
