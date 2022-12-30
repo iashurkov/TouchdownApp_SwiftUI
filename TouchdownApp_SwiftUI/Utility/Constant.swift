@@ -30,6 +30,9 @@ enum Constant {
     }
     
     // UX
+    
+    static let feedback = UIImpactFeedbackGenerator(style: .medium)
+    
     // API
     // IMAGE
     // FONT
