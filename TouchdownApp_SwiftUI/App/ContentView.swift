@@ -38,6 +38,10 @@ struct ContentView: View {
                         } //: LazyVGrid
                         .padding(15)
                         
+                        TitleView(title: "Brands")
+                        
+                        BrandGridView(model: Constant.brands)
+                        
                         FooterView()
                             .padding(.horizontal)
                     } //: VStack
